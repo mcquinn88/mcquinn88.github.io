@@ -1,11 +1,22 @@
----
-# Leave the homepage title empty to use the site title
-title: 'Home'
-date: 2022-10-24
-type: page
-
+title: ""
+type: landing
 design:
-  # Default section spacing
-  spacing: '6rem'
-
+  spacing: "3rem"
+sections:
+  - block: resume-biography-3
+    content:
+      username: admin
+      text: ""
+      button:
+        text: Download CV
+        url: uploads/resume.pdf
+      headings:
+        about: ""
+        education: ""
+        interests: ""
+    design:
+      css_class: hbx-bg-gradient
+      avatar:
+        size: medium
+        shape: circle
 ---
