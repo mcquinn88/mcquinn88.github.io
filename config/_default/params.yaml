@@ -36,8 +36,7 @@ header:
     show_theme_chooser: true
     logo:
       text: 'Michael C. Quinn'
-custom_css:
-  - assets/css/custom.css
+      
 # Site footer
 footer:
   copyright:
