@@ -1,4 +1,8 @@
-/* Shift site title/logo ("Michael C. Quinn") to the right */
-.navbar-brand {
-  margin-left: 3rem !important;   /* move right ≈ 48 px */
+/* === FORCE the site title ("Michael C. Quinn") to shift right === */
+#navbar-main .navbar-brand,
+nav.navbar .navbar-brand,
+.header .navbar-brand,
+.navbar .navbar-brand {
+  transform: translateX(3rem) !important;  /* ≈ 48px to the right */
+  margin-left: 0 !important;               /* neutralize conflicting margins */
 }
