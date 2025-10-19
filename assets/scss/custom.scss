@@ -1,6 +1,25 @@
-/* Make brand + menu sit together on the left (desktop) */
+/* --- TEMP TEST: make the bar obviously different so we know this file is active --- */
+.navbar { background: #333 !important; }   /* remove after you see changes */
+
+/* 1) BIGGER VERTICAL PADDING INSIDE THE NAVBAR */
+.navbar {
+  padding-top: 1.75rem !important;    /* increase to make the bar taller */
+  padding-bottom: 1.75rem !important;
+}
+
+/* 2) EXTRA SPACE *BELOW* THE NAVBAR (gap before first section) */
+nav.navbar {
+  margin-bottom: 1.25rem !important;  /* add vertical gap under the bar */
+}
+
+/* 3) IF YOUR FIRST SECTION IS EATING THE GAP, FORCE ITS TOP PADDING */
+#page-content section:first-of-type {
+  padding-top: 1.25rem !important;
+  margin-top: 0 !important;
+}
+
+/* 4) (UNRELATED TO PADDING) KEEP MENU LEFT IF YOU STILL NEED THAT */
 @media (min-width: 992px) {
-  /* Treat the navbar row as a left-justified flex row */
   #navbar-main > .container,
   #navbar-main > .container-lg,
   #navbar-main > .container-xl,
@@ -10,33 +29,11 @@
     justify-content: flex-start !important;
   }
 
-  /* Keep the collapsible menu right beside the brand */
   #navbar-main .collapse.navbar-collapse {
     flex: 0 0 auto !important;
     display: flex !important;
-    justify-content: flex-start !important;   /* cancel centering */
-  }
-
-  /* Stop Bootstrap utilities from pushing/centering the links */
-  #navbar-main .navbar-nav { 
-    margin-left: 0 !important; 
-    justify-content: flex-start !important;
-  }
-  #navbar-main .navbar-nav.ms-auto,
-  #navbar-main .justify-content-center {
-    margin-left: .5rem !important;           /* small gap after brand */
     justify-content: flex-start !important;
   }
 
-  /* Tiny gap between your name and the first link */
-  .navbar-brand { margin-right: .25rem !important; }
-}
-
-/* Optional: slightly slimmer header bar */
-.navbar { 
-  padding-top: .25rem !important; 
-  padding-bottom: .25rem !important; 
-}
-@media (min-width: 992px) {
-  #navbar-main .navbar-nav.justify-content-center { justify-content: flex-start !important; }
+  .navbar-brand { margin-right: 0.5rem !important; }
 }
