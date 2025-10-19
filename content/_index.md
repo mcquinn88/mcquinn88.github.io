@@ -30,6 +30,6 @@ sections:
         size: large
         shape: circle # Options: circle (default), square, rounded
       spacing:
-        padding: ["0.5rem","0","1rem","0"]
+        padding: ["0.25rem","0","1rem","0"]
  
 ---
