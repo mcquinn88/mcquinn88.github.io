@@ -1,0 +1,38 @@
+/* Keep brand + menu together on the left (desktop) */
+@media (min-width: 992px) {
+  #navbar-main .container,
+  #navbar-main .container-lg,
+  #navbar-main .container-xl,
+  #navbar-main .container-xxl {
+    display: flex !important;
+    justify-content: flex-start !important;   /* stop centering */
+    align-items: center !important;
+  }
+
+  /* Don't let the collapse stretch; keep links right beside brand */
+  #navbar-main .navbar-collapse {
+    flex: 0 0 auto !important;
+    justify-content: flex-start !important;
+  }
+
+  /* Some builds use .ms-auto to push links; cancel it */
+  #navbar-main .navbar-nav.ms-auto {
+    margin-left: .5rem !important;   /* small gap after brand */
+    margin-right: 0 !important;
+  }
+
+  /* Reduce gap between title and first link */
+  .navbar-brand { margin-right: .25rem !important; }
+
+  /* Slightly tighter link paddings */
+  .navbar-nav .nav-link {
+    padding-left: .5rem !important;
+    padding-right: .5rem !important;
+  }
+}
+
+/* (Optional) Slimmer bar overall */
+.navbar {
+  padding-top: 0.25rem !important;
+  padding-bottom: 0.25rem !important;
+}
