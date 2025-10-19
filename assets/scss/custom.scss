@@ -1,38 +1,42 @@
-/* Keep brand + menu together on the left (desktop) */
+/* Make brand + menu sit together on the left (desktop) */
 @media (min-width: 992px) {
-  #navbar-main .container,
-  #navbar-main .container-lg,
-  #navbar-main .container-xl,
-  #navbar-main .container-xxl {
+  /* Treat the navbar row as a left-justified flex row */
+  #navbar-main > .container,
+  #navbar-main > .container-lg,
+  #navbar-main > .container-xl,
+  #navbar-main > .container-xxl {
     display: flex !important;
-    justify-content: flex-start !important;   /* stop centering */
     align-items: center !important;
-  }
-
-  /* Don't let the collapse stretch; keep links right beside brand */
-  #navbar-main .navbar-collapse {
-    flex: 0 0 auto !important;
     justify-content: flex-start !important;
   }
 
-  /* Some builds use .ms-auto to push links; cancel it */
-  #navbar-main .navbar-nav.ms-auto {
-    margin-left: .5rem !important;   /* small gap after brand */
-    margin-right: 0 !important;
+  /* Keep the collapsible menu right beside the brand */
+  #navbar-main .collapse.navbar-collapse {
+    flex: 0 0 auto !important;
+    display: flex !important;
+    justify-content: flex-start !important;   /* cancel centering */
   }
 
-  /* Reduce gap between title and first link */
+  /* Stop Bootstrap utilities from pushing/centering the links */
+  #navbar-main .navbar-nav { 
+    margin-left: 0 !important; 
+    justify-content: flex-start !important;
+  }
+  #navbar-main .navbar-nav.ms-auto,
+  #navbar-main .justify-content-center {
+    margin-left: .5rem !important;           /* small gap after brand */
+    justify-content: flex-start !important;
+  }
+
+  /* Tiny gap between your name and the first link */
   .navbar-brand { margin-right: .25rem !important; }
-
-  /* Slightly tighter link paddings */
-  .navbar-nav .nav-link {
-    padding-left: .5rem !important;
-    padding-right: .5rem !important;
-  }
 }
 
-/* (Optional) Slimmer bar overall */
-.navbar {
-  padding-top: 0.25rem !important;
-  padding-bottom: 0.25rem !important;
+/* Optional: slightly slimmer header bar */
+.navbar { 
+  padding-top: .25rem !important; 
+  padding-bottom: .25rem !important; 
+}
+@media (min-width: 992px) {
+  #navbar-main .navbar-nav.justify-content-center { justify-content: flex-start !important; }
 }
