@@ -2,21 +2,3 @@
 .navbar-brand {
   margin-left: 5in !important;
 }
-
-/* Bigger site title in the navbar */
-.navbar-brand,
-.navbar-brand span,
-.site-title {
-  font-size: 1.8rem !important;  /* ~29px */
-  font-weight: 700 !important;   /* optional: bold */
-  line-height: 1.1 !important;   /* keeps it tidy */
-}
-
-/* (optional) even larger on desktop */
-@media (min-width: 992px) {
-  .navbar-brand,
-  .navbar-brand span,
-  .site-title {
-    font-size: 2rem !important;   /* ~32px */
-  }
-}
