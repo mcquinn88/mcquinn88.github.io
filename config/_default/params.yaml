@@ -39,6 +39,10 @@ header:
       text: 'Michael C. Quinn'
       
 # Site footer
+.navbar-brand {
+  margin-left: 1in !important;
+}
+
 footer:
   copyright:
     notice: '© {year} Me. This work is licensed under {license}'
