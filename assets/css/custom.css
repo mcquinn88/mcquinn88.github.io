@@ -1,0 +1,4 @@
+/* Shift site title/logo to the right by 1 inch */
+.navbar-brand {
+  margin-left: 1in !important;
+}
