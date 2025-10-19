@@ -20,7 +20,6 @@ sections:
         url: uploads/resume.pdf
       headings:
         about: ''
-        # education
         interests: ''
     design:
       # Apply a gradient background
