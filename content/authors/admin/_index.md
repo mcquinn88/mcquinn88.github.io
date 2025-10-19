@@ -1,6 +1,6 @@
 ---
 # Display name
-title: Alex Johnson
+title: Michael Quinn
 
 # Name pronunciation (optional)
 name_pronunciation: ''
@@ -31,13 +31,12 @@ profiles:
   - icon: at-symbol
     url: 'mailto:alex.johnson@meta.com'
     label: E-mail Me
-   - icon: brands/linkedin
+  - icon: brands/linkedin
     url: https://www.linkedin.com/in/alexjohnsonai/
   - icon: academicons/google-scholar
     url: https://scholar.google.com/citations?user=alexjohnson
   - icon: academicons/orcid
     url: https://orcid.org/0000-0002-1825-0097
-
 interests:
   - Large Language Models
   - Computer Vision
