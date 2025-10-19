@@ -49,6 +49,7 @@ education:
     institution: Goucher College
     date_start: 2012
     date_end: 2011
----
+
 
 Welcome! I am a PhD candidate in Economics at the Maxwell School of Citizenship and Public Affairs, Syracuse University. My research investigates how education systems and student health intersect in urban contexts. Using large-scale administrative data and applied microeconomic tools, I study how public institutions shape access and opportunity for students and families.
+---
