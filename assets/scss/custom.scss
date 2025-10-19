@@ -1,8 +1,7 @@
-/* === FORCE the site title ("Michael C. Quinn") to shift right === */
-#navbar-main .navbar-brand,
-nav.navbar .navbar-brand,
-.header .navbar-brand,
-.navbar .navbar-brand {
-  transform: translateX(3rem) !important;  /* ≈ 48px to the right */
-  margin-left: 0 !important;               /* neutralize conflicting margins */
+@media (min-width: 992px) {
+  #navbar-main > .container,
+  nav.navbar > .container,
+  nav.navbar > .container-fluid {
+    padding-left: 1in !important;   /* ~96px horizontal shift */
+  }
 }
