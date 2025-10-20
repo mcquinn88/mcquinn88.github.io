@@ -11,4 +11,3 @@ content:
   sort_by: "date"
   order: "desc"
 ---
-
