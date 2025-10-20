@@ -19,18 +19,8 @@ section#about .article-style p {
   line-height: 1.7 !important;
 }
 
-/* If your build uses the prose wrapper */
-section#about .prose,
-section#about .prose p {
-  font-size: 1.2rem !important;
-  line-height: 1.7 !important;
-}
-
-/* If the content is rendered under .content/.section-content */
-section#about .section-content,
-section#about .section-content p,
-section#about .content,
-section#about .content p {
-  font-size: 1.2rem !important;
-  line-height: 1.7 !important;
+/* Resize the main bio / welcome text */
+.bio-text p {
+  font-size: 1.5rem !important;   /* adjust up or down as needed */
+  line-height: 1.7;
 }
