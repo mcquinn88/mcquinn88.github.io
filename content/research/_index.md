@@ -4,46 +4,43 @@ type: landing
 layout: landing
 
 sections:
-  - block: header
+  - block: markdown
     content:
       title: "Research"
-      subtitle: ""
+      text: ""
     design:
-      align: left
+      columns: 1
 
-  # ===== Working Papers =====
   - block: collection
     content:
       title: "Working Papers"
       filters:
         folders: ["publications"]
-        publication_types: ["3"]     # 3 = preprint/working paper in Wowchemy
+        publication_types: ["3"]     # 3 = working paper/preprint
         featured_only: false
       sort_by: date_desc
       page_size: 100
     design:
-      view: citation                 # <<< citation style (no images)
+      view: citation                  # ← compact citations, no images
 
-  # ===== Work in Progress =====
   - block: collection
     content:
       title: "Work in Progress"
       filters:
         folders: ["publications"]
-        tags: ["in progress"]        # tag your WIP items with:  tags: ["in progress"]
+        tags: ["in progress"]         # tag your WIP items with: tags: ["in progress"]
         featured_only: false
       sort_by: date_desc
       page_size: 100
     design:
       view: citation
 
-  # ===== Refereed Journal Publications =====
   - block: collection
     content:
       title: "Refereed Journal Publications"
       filters:
         folders: ["publications"]
-        publication_types: ["2"]     # 2 = journal article
+        publication_types: ["2"]      # 2 = journal article
         featured_only: false
       sort_by: date_desc
       page_size: 100
