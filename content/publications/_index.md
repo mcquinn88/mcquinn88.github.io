@@ -1,11 +1,15 @@
 ---
-title: Publications
+title: "Publications"
 cms_exclude: true
 
-# View.
+# Make every child under /publications/ render as a publication
+cascade:
+  type: publication
+  draft: false
+
+# Section listing style (when you visit /publications/)
 view: citation
 
-# Optional header image (relative to `static/media/` folder).
 banner:
-  caption: ''
+  caption: ""
 ---
