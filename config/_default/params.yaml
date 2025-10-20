@@ -67,6 +67,4 @@ assets:
 favicon:
   logo: "favicon.png"
 custom_css:
-  - css/custom.css
-custom_css:
   - css/research.css
