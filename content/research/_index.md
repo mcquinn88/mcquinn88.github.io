@@ -5,8 +5,8 @@ sections:
     content:
       title: "Publications"
       filters:
-        folders: ["publications"]   # stays plural
-        featured_only: false
+        folders: ["publications"]   # plural matches your folder name
+        featured_only: false        # avoid hiding items
     design:
       view: article-grid
       columns: 2
