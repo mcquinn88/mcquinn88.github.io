@@ -1,6 +1,13 @@
 
 .navbar-brand {
-  margin-left: 3in !important;
+  margin-left: 2.5in !important;
   font-size: 1.8rem;
   font-weight: bold;
+}
+
+/* Adjust navigation menu links */
+.navbar-nav .nav-link {
+  font-size: 1.2rem;      /* increase/decrease as desired */
+  font-weight: 600;       /* make bolder if you like */
+  padding: 0.5rem 1rem;   /* control spacing between menu items */
 }
