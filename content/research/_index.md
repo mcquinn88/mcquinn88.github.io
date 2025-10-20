@@ -7,7 +7,6 @@ sections:
   - block: markdown
     content:
       title: ""
-    # 🔴 Keep the 8-space indent under `text: |` or the CSS won't render.
       text: |
         <style>
         /* ===== FINAL RESEARCH LAYOUT: Left label / Right citation list ===== */
@@ -18,6 +17,7 @@ sections:
           column-gap:2.25rem!important;
           align-items:start!important;
           padding:1.25rem 0!important;
+          margin-left:80px!important;  /* 👈 shift both columns to the right */
         }
 
         /* Background layer spans both columns */
