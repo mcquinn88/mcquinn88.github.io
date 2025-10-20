@@ -1,17 +1,2 @@
 /* Shift site title/logo to the right by 1 inch */
-.navbar-brand { margin-left: 1in !important; }
-
-/* Bigger site title */
-.navbar-brand,
-.navbar-brand span,
-.site-title {
-  font-size: 1.8rem !important;
-  font-weight: 700 !important;
-  line-height: 1.1 !important;
-}
-
-@media (min-width: 992px) {
-  .navbar-brand,
-  .navbar-brand span,
-  .site-title { font-size: 2rem !important; }
-}
+.navbar-brand { margin-left: 3in !important; }
