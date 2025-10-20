@@ -12,8 +12,25 @@
   padding: 0.5rem 1rem;   /* control spacing between menu items */
 }
 
-/* Change font size of the main About/Welcome paragraph */
-#about .section-content p {
-  font-size: 1.5rem !important;
-  line-height: 1.6;
+/* About widget main text — common Wowchemy/Hugo Blox wrappers */
+section#about .article-style,
+section#about .article-style p {
+  font-size: 1.2rem !important;
+  line-height: 1.7 !important;
+}
+
+/* If your build uses the prose wrapper */
+section#about .prose,
+section#about .prose p {
+  font-size: 1.2rem !important;
+  line-height: 1.7 !important;
+}
+
+/* If the content is rendered under .content/.section-content */
+section#about .section-content,
+section#about .section-content p,
+section#about .content,
+section#about .content p {
+  font-size: 1.2rem !important;
+  line-height: 1.7 !important;
 }
