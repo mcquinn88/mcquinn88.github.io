@@ -7,7 +7,7 @@ design:
   view: "compact"
 content:
   filters:
-    tags: ["wip"]
+    publication_type: ["4"]   # use type 4 for WIP
   sort_by: "date"
   order: "desc"
 ---
