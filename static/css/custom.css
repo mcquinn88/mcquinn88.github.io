@@ -1,0 +1,43 @@
+/* Scope to the Research page only via the page class we set in front matter */
+.page-research section.block{
+  display:grid;
+  grid-template-columns: 280px 1fr;  /* left label, right list */
+  column-gap: 2rem;
+  align-items:start;
+  padding: 1.25rem 0;               /* tighter vertical rhythm */
+}
+
+/* Put the section title on the left column */
+.page-research section.block > header{
+  grid-column:1;
+  text-align:left;
+  margin:0;
+}
+
+/* Put the citation list on the right column */
+.page-research section.block .view-citation{
+  grid-column:2;
+}
+
+/* Remove card/figure remnants anywhere inside Research */
+.page-research .card-figure,
+.page-research .article-header .featured-image,
+.page-research .figure,.page-research .responsive-figure{
+  display:none !important;
+}
+
+/* Optional: hide PDF/DOI/code badge row for ultra-plain look */
+/* comment these two lines out if you want to keep the badges */
+.page-research .view-citation .btn-links,
+.page-research .view-citation .pub-links{ display:none !important; }
+
+/* Alternating background shading per section */
+.page-research section.block:nth-of-type(odd){ background: rgba(255,255,255,0.02); }
+.page-research section.block:nth-of-type(even){ background: transparent; }
+
+/* Slightly narrower measure for readability */
+.page-research .container, 
+.page-research .article-container, 
+.page-research .main-content{
+  max-width: 1100px;
+}
