@@ -11,20 +11,18 @@ sections:
       text: |
         <style>
         /* ===== Two-column layout with a left gutter (shading stays full width) ===== */
-
-        /* [gutter | title | list] */
+        /* Grid: [gutter | title | list] */
         section.blox-collection{
           display:grid!important;
-          grid-template-columns: 80px 320px 1fr !important; /* ← adjust gutter (80px) & title width (320px) */
+          grid-template-columns: 80px 320px 1fr !important; /* adjust 80px/320px as desired */
           column-gap: 2.25rem!important;
           align-items:start!important;
-          padding: 1.25rem 0!important; /* no left padding so the background stays flush */
+          padding: 1.25rem 0!important; /* no left padding so row shading stays flush */
         }
-
-        /* make the background span the entire row (incl. gutter) */
+        /* background spans the full width */
         section.blox-collection>.home-section-bg{ grid-column:1 / -1!important }
 
-        /* LEFT column = title wrapper (second .flex) */
+        /* LEFT = title wrapper */
         section.blox-collection>div.flex:nth-of-type(2){
           grid-column:2!important;
           justify-self:start!important;
@@ -33,18 +31,13 @@ sections:
           border-right:2px solid rgba(255,255,255,.1)!important;
         }
         section.blox-collection>div.flex:nth-of-type(2) .mb-6{
-          margin:0!important;
-          font-weight:800!important;
-          font-size:2.1rem!important;
-          line-height:1.15!important;
+          margin:0!important; font-weight:800!important; font-size:2.1rem!important; line-height:1.15!important;
         }
 
-        /* RIGHT column = list wrapper (third .flex) */
+        /* RIGHT = list wrapper */
         section.blox-collection>div.flex:nth-of-type(3){
           grid-column:3!important;
-          justify-self:stretch!important;
-          text-align:left!important;
-          width:100%!important;
+          justify-self:stretch!important; text-align:left!important; width:100%!important;
         }
         section.blox-collection>div.flex:nth-of-type(3) .container{
           max-width:none!important; width:100%!important; margin:0!important; padding:0!important;
@@ -71,7 +64,8 @@ sections:
     content:
       title: "Working Papers"
       filters:
-        section: "publications"
+        section: "publications"               # only pull from content/publications/*
+        exclude_sections: ["blog","courses","events"]
         publication_types: ["3"]
       sort_by: date_desc
       page_size: 100
@@ -84,6 +78,7 @@ sections:
       title: "Work in Progress"
       filters:
         section: "publications"
+        exclude_sections: ["blog","courses","events"]
         publication_types: ["4"]
       sort_by: date_desc
       page_size: 100
@@ -96,11 +91,10 @@ sections:
       title: "Refereed Journal Publications"
       filters:
         section: "publications"
+        exclude_sections: ["blog","courses","events"]
         publication_types: ["2"]
       sort_by: date_desc
       page_size: 100
     design:
       view: citation
 ---
-
-
