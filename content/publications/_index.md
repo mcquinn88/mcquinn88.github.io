@@ -2,14 +2,12 @@
 title: "Publications"
 cms_exclude: true
 
-# Make every child under /publications/ render as a publication
 cascade:
   type: publication
   draft: false
 
-# Section listing style (when you visit /publications/)
-view: citation
-
-banner:
-  caption: ""
+# Section listing style at /publications
+view: card          # try: card  (or article-grid)
+columns: 2          # number of columns for card/grid views
+sort_by: date_desc  # newest first
 ---
