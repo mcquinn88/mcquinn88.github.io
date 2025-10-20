@@ -1,0 +1,51 @@
+/* ---- SMOKE TEST: you should see a thin red line around the page ---- */
+body { outline: 3px solid rgba(255,0,0,.25); }
+
+/* ===== Left label / Right citations, Hugo Blox collections ===== */
+
+/* Make each collection block a 2-column grid */
+section.block-collection,
+section.block.block-collection {                       /* cover both class patterns */
+  display: grid !important;
+  grid-template-columns: 300px 1fr !important;        /* LEFT label | RIGHT list */
+  column-gap: 2rem !important;
+  align-items: start !important;
+  padding: 1.1rem 0 !important;
+}
+
+/* Put the section header on the LEFT */
+section.block-collection > header,
+section.block-collection > .container > header {
+  grid-column: 1 !important;
+  text-align: left !important;
+  margin: 0 !important;
+  padding: .25rem 1rem .25rem 0 !important;
+  border-right: 2px solid rgba(255,255,255,0.12) !important;
+}
+section.block-collection > header h2,
+section.block-collection > .container > header h2 {
+  font-weight: 800 !important;
+  font-size: 2rem !important;
+  line-height: 1.1 !important;
+  margin: 0 !important;
+}
+
+/* Put the list (any view container) on the RIGHT */
+section.block-collection .view-citation,
+section.block-collection [class*="view-"],
+section.block-collection .items,
+section.block-collection .articles,
+section.block-collection .article-list {
+  grid-column: 2 !important;
+}
+
+/* Alternating background shading per block */
+section.block-collection:nth-of-type(odd) { background: rgba(255,255,255,.035) !important; }
+section.block-collection:nth-of-type(even){ background: transparent !important; }
+
+/* Tighten citation spacing & hide any figures */
+section.block-collection .article { margin: .28rem 0 !important; padding: 0 !important; line-height: 1.35 !important; }
+section.block-collection .card-figure,
+section.block-collection .article-header .featured-image,
+section.block-collection .figure,
+section.block-collection .responsive-figure { display: none !important; }
