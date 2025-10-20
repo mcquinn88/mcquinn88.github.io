@@ -5,7 +5,7 @@
 
 main:
   - name: Research
-    url: content/publication/_index.md
+    url: Teaching/
     weight: 11
   - name: Teaching
     url: Teaching/
