@@ -4,51 +4,75 @@ type: landing
 layout: landing
 
 sections:
-  # INLINE CSS (no external files). If this does nothing visually, HTML is being stripped.
+  # INLINE CSS ONLY — no external files needed
   - block: markdown
     content:
       title: ""
       text: |
         <style>
-          /* VISUAL PROOF this CSS is active: make section titles red temporarily */
-          section.block-collection > .container > header h2 { color:#c23616 !important; }
+          /* ===== FORCE left label / right citations (works with any Blox wrapper) ===== */
 
-          /* Left/Right layout */
-          section.block-collection > .container{
-            display:grid;
-            grid-template-columns: 300px 1fr; /* LEFT label | RIGHT list */
-            column-gap:2rem;
-            align-items:start;
-            padding:1rem 0;
+          /* turn every collection block into a two-column grid */
+          section.block-collection{
+            display:grid !important;
+            grid-template-columns: 300px 1fr !important;  /* LEFT label | RIGHT list */
+            column-gap: 2rem !important;
+            align-items:start !important;
+            padding: 1.1rem 0 !important;
           }
-          section.block-collection:nth-of-type(odd){ background:rgba(255,255,255,.035); }
-          section.block-collection:nth-of-type(even){ background:transparent; }
 
-          section.block-collection > .container > header{
-            grid-column:1; text-align:left; margin:0; padding:.25rem 0;
-            border-right:2px solid rgba(255,255,255,0.10); padding-right:1rem;
+          /* most themes wrap in a .container — make sure the grid applies there too */
+          section.block-collection > *{
+            grid-column: 1 / -1; /* default span both to avoid hidden content */
           }
-          section.block-collection > .container > .view-citation{ grid-column:2; }
 
-          /* Tight citations; kill any figures */
-          .view-citation .article{ margin:.28rem 0; padding:0; line-height:1.35; font-size:1rem; }
-          .card-figure, .article-header .featured-image, .figure, .responsive-figure{ display:none !important; }
+          /* put the section header on the LEFT */
+          section.block-collection header,
+          section.block-collection > .container > header,
+          section.block-collection > header{
+            grid-column: 1 !important;
+            text-align: left !important;
+            margin: 0 !important;
+            padding: .25rem 1rem .25rem 0 !important;
+            border-right: 2px solid rgba(255,255,255,0.12) !important;
+          }
+          /* proof the CSS is active: temporarily tint the headings */
+          section.block-collection header h2{ color:#c1ff72 !important; }
+
+          /* put the list of items on the RIGHT (match any view container) */
+          section.block-collection .view-citation,
+          section.block-collection [class*="view-"],
+          section.block-collection .items,
+          section.block-collection .articles,
+          section.block-collection .article-list{
+            grid-column: 2 !important;
+          }
+
+          /* alternating background rows per block */
+          section.block-collection:nth-of-type(odd){ background: rgba(255,255,255,.035) !important; }
+          section.block-collection:nth-of-type(even){ background: transparent !important; }
+
+          /* tighten citation spacing; kill any figures */
+          section.block-collection .article{ margin:.28rem 0 !important; padding:0 !important; line-height:1.35 !important; font-size:1rem !important; }
+          section.block-collection .card-figure,
+          section.block-collection .article-header .featured-image,
+          section.block-collection .figure,
+          section.block-collection .responsive-figure{ display:none !important; }
         </style>
     design:
       columns: 1
 
-  # DEBUG: single bucket first to verify items render
+  # Keep this first block for sanity: ensures items render
   - block: collection
     content:
       title: "All Publications (debug)"
       filters:
-        section: "publications"   # <- your plural section
+        section: "publications"
       sort_by: date_desc
       page_size: 100
     design:
       view: citation
 
-  # After the debug block works, you can keep these grouped lists.
   - block: collection
     content:
       title: "Working Papers"
