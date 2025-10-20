@@ -60,17 +60,17 @@ sections:
       columns: 1
 
   # Working Papers (type 3)
-  - block: collection
-    content:
-      title: "Working Papers"
-      filters:
-        section: "publications"               # only pull from content/publications/*
-        exclude_sections: ["blog","courses","events"]
-        publication_types: ["3"]
-      sort_by: date_desc
-      page_size: 100
-    design:
-      view: citation
+- block: collection
+  content:
+    title: "Working Papers"
+    filters:
+      folders:
+        - publications        # ← use the EXACT folder name in your repo
+      publication_type: ["3"] # 3 = working paper/preprint
+      exclude:
+        folders: ["talk", "event", "post", "project"]
+  design:
+    view: citation
 
   # Work in Progress (type 4)
   - block: collection
