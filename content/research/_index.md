@@ -60,7 +60,7 @@ sections:
       columns: 1
 
   # Working Papers (type 3)
-- block: collection
+  - block: collection
   content:
     title: "Working Papers"
     filters:
