@@ -1,43 +1,60 @@
-/* Scope to the Research page only via the page class we set in front matter */
-.page-research section.block{
-  display:grid;
-  grid-template-columns: 280px 1fr;  /* left label, right list */
-  column-gap: 2rem;
-  align-items:start;
-  padding: 1.25rem 0;               /* tighter vertical rhythm */
-}
+/* =======  Classic two-column research layout  ======= */
 
-/* Put the section title on the left column */
-.page-research section.block > header{
-  grid-column:1;
-  text-align:left;
-  margin:0;
-}
-
-/* Put the citation list on the right column */
-.page-research section.block .view-citation{
-  grid-column:2;
-}
-
-/* Remove card/figure remnants anywhere inside Research */
-.page-research .card-figure,
-.page-research .article-header .featured-image,
-.page-research .figure,.page-research .responsive-figure{
-  display:none !important;
-}
-
-/* Optional: hide PDF/DOI/code badge row for ultra-plain look */
-/* comment these two lines out if you want to keep the badges */
-.page-research .view-citation .btn-links,
-.page-research .view-citation .pub-links{ display:none !important; }
-
-/* Alternating background shading per section */
-.page-research section.block:nth-of-type(odd){ background: rgba(255,255,255,0.02); }
-.page-research section.block:nth-of-type(even){ background: transparent; }
-
-/* Slightly narrower measure for readability */
-.page-research .container, 
-.page-research .article-container, 
-.page-research .main-content{
+/* whole research page */
+body.page-research main {
   max-width: 1100px;
+  margin: 0 auto;
+  padding-top: 1rem;
+}
+
+/* each block (Working Papers, WIP, etc.) → two columns */
+body.page-research section.block {
+  display: grid;
+  grid-template-columns: 260px 1fr;
+  column-gap: 2rem;
+  align-items: start;
+  padding: 1.25rem 0;
+}
+
+/* left-hand titles */
+body.page-research section.block > header {
+  grid-column: 1;
+  text-align: right;
+  font-weight: 700;
+  font-size: 1.4rem;
+  padding-right: 1rem;
+  border-right: 2px solid rgba(255,255,255,0.1);
+  margin: 0;
+}
+
+/* right-hand citation list */
+body.page-research section.block .view-citation {
+  grid-column: 2;
+}
+
+/* alternate background shading */
+body.page-research section.block:nth-of-type(odd) {
+  background-color: rgba(255,255,255,0.03);
+}
+body.page-research section.block:nth-of-type(even) {
+  background-color: transparent;
+}
+
+/* remove every possible image / card / badge line */
+body.page-research .card-figure,
+body.page-research .article-header .featured-image,
+body.page-research .figure,
+body.page-research .responsive-figure {
+  display: none !important;
+}
+body.page-research .btn-links,
+body.page-research .pub-links {
+  display: none !important;
+}
+
+/* tighten citation spacing */
+body.page-research .view-citation .article {
+  margin: 0.2rem 0;
+  padding: 0;
+  line-height: 1.4;
 }
