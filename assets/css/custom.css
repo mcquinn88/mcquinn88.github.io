@@ -11,3 +11,8 @@
   font-weight: 600;       /* make bolder if you like */
   padding: 0.5rem 1rem;   /* control spacing between menu items */
 }
+
+#about .portrait-title h1 {
+  font-size: 2.2rem;   /* default is around 3–3.5rem */
+  line-height: 1.1;
+}
