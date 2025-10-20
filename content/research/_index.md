@@ -1,13 +1,17 @@
 ---
 title: "Research"
+type: landing            # ← this enables blocks on non-home pages
 sections:
   - block: collection
     content:
       title: "Publications"
+      subtitle: ""
       filters:
-        folders: ["publications"]   # plural matches your folder name
-        featured_only: false        # avoid hiding items
+        folders: ["publications"]   # stays plural, matching your tree
+        featured_only: false
+      sort_by: date_desc
+      page_size: 50
     design:
-      view: article-grid
+      view: card        # options: card | article-grid | citation
       columns: 2
 ---
