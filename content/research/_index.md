@@ -4,6 +4,27 @@ type: landing
 layout: landing
 
 sections:
+  # ===== DEBUG 1: Should list EVERYTHING under content/publications/ =====
+  - block: collection
+    content:
+      title: "DEBUG — All Publications (temporary)"
+      filters:
+        folders: ["publications"]     # matches your path content/publications/
+    design:
+      view: citation
+
+  # ===== DEBUG 2: Items with NO category tag (wp/wip/journal) =====
+  - block: collection
+    content:
+      title: "DEBUG — Uncategorized (missing wp/wip/journal tag)"
+      filters:
+        folders: ["publications"]
+        exclude:
+          tags: ["wp","wip","journal"]
+    design:
+      view: citation
+
+  # ===== CSS layout for the pretty sections below =====
   - block: markdown
     content:
       title: ""
@@ -11,7 +32,7 @@ sections:
         <style>
         section.blox-collection{
           display:grid!important;
-          grid-template-columns:80px 320px 1fr!important;
+          grid-template-columns:80px 320px 1fr!important; /* gutter | title | list */
           column-gap:2.25rem!important;
           align-items:start!important;
           padding:1.25rem 0!important;
@@ -24,50 +45,63 @@ sections:
         section.blox-collection>div.flex:nth-of-type(2) .mb-6{
           margin:0!important; font-weight:800!important; font-size:2.1rem!important; line-height:1.15!important;
         }
-        section.blox-collection>div.flex:nth-of-type(3){ grid-column:3!important; width:100%!important; }
-        section.blox-collection>div.flex:nth-of-type(3) .container{ max-width:none!important; margin:0!important; padding:0!important; }
-        section.blox-collection .pub-list-item.view-citation{ margin:.28rem 0!important; padding:0!important; line-height:1.35!important; font-size:1rem!important; }
-        section.blox-collection .card-figure, section.blox-collection .article-header .featured-image, section.blox-collection .figure, section.blox-collection .responsive-figure{display:none!important}
+        section.blox-collection>div.flex:nth-of-type(3){
+          grid-column:3!important; justify-self:stretch!important; text-align:left!important; width:100%!important;
+        }
+        section.blox-collection>div.flex:nth-of-type(3) .container{
+          max-width:none!important; width:100%!important; margin:0!important; padding:0!important;
+        }
+        section.blox-collection .pub-list-item.view-citation{
+          margin:.28rem 0!important; padding:0!important; line-height:1.35!important; font-size:1rem!important;
+        }
+        section.blox-collection .card-figure,
+        section.blox-collection .article-header .featured-image,
+        section.blox-collection .figure,
+        section.blox-collection .responsive-figure{display:none!important}
         section.blox-collection:nth-of-type(odd){background:rgba(255,255,255,.03)!important}
         section.blox-collection:nth-of-type(even){background:transparent!important}
         </style>
     design:
       columns: 1
 
+  # ===== Working Papers (tag: wp) =====
   - block: collection
     content:
       title: "Working Papers"
       filters:
-        section: "publications"     # because your path is content/publications/
-        publication_type: ["3"]     # filter key is SINGULAR
+        folders: ["publications"]
+        tags: ["wp"]
         exclude:
-          sections: ["talk","event","post","project"]
+          folders: ["talk","event","post","project"]
       sort_by: "date"
     design:
       view: citation
 
+  # ===== Work in Progress (tag: wip) =====
   - block: collection
     content:
       title: "Work in Progress"
       filters:
-        section: "publications"
-        publication_type: ["4"]
+        folders: ["publications"]
+        tags: ["wip"]
         exclude:
-          sections: ["talk","event","post","project"]
+          folders: ["talk","event","post","project"]
       sort_by: "date"
     design:
       view: citation
 
+  # ===== Journal Publications (tag: journal) =====
   - block: collection
     content:
       title: "Journal Publications"
       filters:
-        section: "publications"
-        publication_type: ["2"]
+        folders: ["publications"]
+        tags: ["journal"]
         exclude:
-          sections: ["talk","event","post","project"]
+          folders: ["talk","event","post","project"]
       sort_by: "date"
     design:
       view: citation
 ---
+
 
