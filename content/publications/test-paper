@@ -1,8 +1,0 @@
----
-title: "Test Paper That Should Appear"
-authors: ["Michael C. Quinn"]
-date: 2025-05-01
-publication_types: ["3"]   # any type is fine for this test
-abstract: "This is a test item to confirm the publications widget renders."
-featured: false
----
