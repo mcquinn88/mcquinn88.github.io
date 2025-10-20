@@ -3,63 +3,58 @@
 # Documentation: https://docs.hugoblox.com/
 # This file is formatted using YAML syntax - learn more at https://learnxinyminutes.com/docs/yaml/
 
-# Appearance
 appearance:
   mode: system
   color: indigo
 
-# SEO
 marketing:
   seo:
     site_type: Person
-    local_business_type: ''
-    org_name: ''
-    description: 'The highly-customizable Hugo Academic theme powered by Hugo Blox Builder. Easily create your personal academic website.'
-    twitter: 'GetResearchDev'
+    local_business_type: ""
+    org_name: ""
+    description: "The highly-customizable Hugo Academic theme powered by Hugo Blox Builder."
+    twitter: "GetResearchDev"
   analytics:
-    google_analytics: ''
-    baidu_tongji: ''
-    plausible: ''
-    fathom: ''
-    pirsch: ''
+    google_analytics: ""
+    baidu_tongji: ""
+    plausible: ""
+    fathom: ""
+    pirsch: ""
   verification:
-    google: ''
-    baidu: ''
+    google: ""
+    baidu: ""
 
-# Site header
 header:
   navbar:
     enable: true
-    block: 'navbar'
+    block: "navbar"
     align: "left"
     fixed_to_top: true
     show_search: true
     show_theme_chooser: true
     logo:
-      text: 'Michael C. Quinn'
-      
-# Site footer
-assets:
-  css:
-    - "css/custom.cs
+      text: "Michael C. Quinn"
 
 footer:
   copyright:
-    notice: '© {year} Me. This work is licensed under {license}'
+    notice: "© {year} Me. This work is licensed under {license}"
     license:
       enable: true
       allow_derivatives: false
       share_alike: true
       allow_commercial: false
 
-# Localization
 locale:
-  date_format: 'Jan 2, 2006'
-  time_format: '3:04 PM'
+  date_format: "Jan 2, 2006"
+  time_format: "3:04 PM"
 
-# Site features
 features:
   math:
     enable: false
   privacy_pack:
     enable: false
+
+# Load /assets/css/custom.css
+assets:
+  css:
+    - "css/custom.css"
