@@ -58,3 +58,7 @@ features:
 assets:
   css:
     - "css/custom.css"
+    
+favicon:
+  logo: "favicon.png"
+  touch_logo: "apple-touch-icon.png"
