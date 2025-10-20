@@ -4,7 +4,7 @@ type: landing
 layout: landing
 
 sections:
-  # ===== Inline CSS layout =====
+  # ===== Inline CSS: left title / right list, full-width shading =====
   - block: markdown
     content:
       title: ""
@@ -44,54 +44,56 @@ sections:
     design:
       columns: 1
 
-  # ===== Working Papers =====
+  # ===== Working Papers (tag: wp) =====
   - block: collection
     content:
       title: "Working Papers"
       filters:
-        # use section because your path is content/publications/
-        section: "publications"
-        # accept either strings or numbers in item front matter
-        publication_type: ["3", 3]
+        folders: ["publications"]     # your section lives at content/publications/
+        tags: ["wp"]                  # ← filter by tag
         exclude:
-          sections: ["talk","event","post","project"]
+          folders: ["talk","event","post","project"]
       sort_by: "date"
     design:
       view: citation
 
-  # ===== Work in Progress =====
+  # ===== Work in Progress (tag: wip) =====
   - block: collection
     content:
       title: "Work in Progress"
       filters:
-        section: "publications"
-        publication_type: ["4", 4]
+        folders: ["publications"]
+        tags: ["wip"]
         exclude:
-          sections: ["talk","event","post","project"]
+          folders: ["talk","event","post","project"]
       sort_by: "date"
     design:
       view: citation
 
-  # ===== Journal Publications =====
+  # ===== Journal Publications (tag: journal) =====
   - block: collection
     content:
       title: "Journal Publications"
       filters:
-        section: "publications"
-        publication_type: ["2", 2]
+        folders: ["publications"]
+        tags: ["journal"]
         exclude:
-          sections: ["talk","event","post","project"]
+          folders: ["talk","event","post","project"]
       sort_by: "date"
     design:
       view: citation
 
-  # ===== Debug block: comment OUT after it works =====
+  # ===== Safety net: items with no category tag (remove when clean) =====
   - block: collection
     content:
-      title: "All publications (debug — remove after check)"
+      title: "Uncategorized (add wp / wip / journal tag)"
       filters:
-        section: "publications"
+        folders: ["publications"]
+        exclude:
+          folders: ["talk","event","post","project"]
+          tags: ["wp","wip","journal"]
       sort_by: "date"
     design:
       view: citation
 ---
+
