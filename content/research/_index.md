@@ -1,12 +1,11 @@
 ---
-title: 📚 My Research
+title: "Research"
 sections:
   - block: collection
     content:
-      title: Publications
+      title: "Publications"
       filters:
-        folders:
-          - publications
+        folders: ["publications"]   # stays plural
         featured_only: false
     design:
       view: article-grid
