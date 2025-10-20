@@ -1,45 +1,52 @@
-/* SMOKE TEST: remove after you see it */
-body { outline: 2px solid rgba(0,200,0,.35); }
+/* Left label / Right list for Hugo Blox (blox-collection layout) */
 
-/* Left label / Right citations for Hugo Blox collection blocks */
-section.block-collection,
-section.block.block-collection {
+/* make each collection section a two-column grid */
+section.blox-collection{
   display: grid !important;
-  grid-template-columns: 300px 1fr !important; /* LEFT | RIGHT */
+  grid-template-columns: 300px 1fr !important; /* LEFT label | RIGHT list */
   column-gap: 2rem !important;
   align-items: start !important;
   padding: 1.1rem 0 !important;
 }
 
-section.block-collection > header,
-section.block-collection > .container > header {
+/* background image layer spans both columns */
+section.blox-collection > .home-section-bg{ grid-column: 1 / -1 !important; }
+
+/* LEFT column = the FIRST content block after bg (the title wrapper) */
+section.blox-collection > div.flex:nth-of-type(2){
   grid-column: 1 !important;
+  justify-self: start !important;
   text-align: left !important;
-  margin: 0 !important;
-  padding: .25rem 1rem .25rem 0 !important;
-  border-right: 2px solid rgba(255,255,255,0.12) !important;
 }
-section.block-collection > header h2,
-section.block-collection > .container > header h2 {
+
+/* make the actual title text look like a heading on the left */
+section.blox-collection > div.flex:nth-of-type(2) .mb-6{
+  margin: 0 !important;
   font-weight: 800 !important;
-  font-size: 2rem !important;
-  line-height: 1.1 !important;
-  margin: 0 !important;
+  line-height: 1.15 !important;
 }
 
-section.block-collection .view-citation,
-section.block-collection [class*="view-"],
-section.block-collection .items,
-section.block-collection .articles,
-section.block-collection .article-list {
+/* RIGHT column = the SECOND content block (the list wrapper) */
+section.blox-collection > div.flex:nth-of-type(3){
   grid-column: 2 !important;
+  width: 100% !important;
+  justify-self: stretch !important;
+  text-align: left !important;
 }
 
-section.block-collection:nth-of-type(odd) { background: rgba(255,255,255,.035) !important; }
-section.block-collection:nth-of-type(even){ background: transparent !important; }
+/* tighten citations; hide figures */
+section.blox-collection .pub-list-item.view-citation{ 
+  margin: .28rem 0 !important; 
+  padding: 0 !important; 
+  line-height: 1.35 !important; 
+  font-size: 1rem !important; 
+}
+section.blox-collection .card-figure,
+section.blox-collection .article-header .featured-image,
+section.blox-collection .figure,
+section.blox-collection .responsive-figure{ display:none !important; }
 
-section.block-collection .article { margin: .28rem 0 !important; padding: 0 !important; line-height: 1.35 !important; }
-section.block-collection .card-figure,
-section.block-collection .article-header .featured-image,
-section.block-collection .figure,
-section.block-collection .responsive-figure { display: none !important; }
+/* alternating background per section */
+section.blox-collection:nth-of-type(odd){ background: rgba(255,255,255,.035) !important; }
+section.blox-collection:nth-of-type(even){ background: transparent !important; }
+
