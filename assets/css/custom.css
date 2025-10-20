@@ -1,4 +1,6 @@
 
 .navbar-brand {
-  margin-left: 1in !important;
+  margin-left: 3in !important;
+  font-size: 1.8rem;
+  font-weight: bold;
 }
