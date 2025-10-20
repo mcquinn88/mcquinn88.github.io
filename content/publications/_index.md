@@ -1,13 +1,13 @@
 ---
 title: "Publications"
-cms_exclude: true
 
+# Force children under /publications/ to render as publication pages,
+# even though the folder name is plural.
 cascade:
   type: publication
   draft: false
 
-# Section listing style at /publications
-view: card          # try: card  (or article-grid)
-columns: 2          # number of columns for card/grid views
-sort_by: date_desc  # newest first
+# Section page style at /publications (no cards, no images)
+view: citation
+sort_by: date_desc
 ---
