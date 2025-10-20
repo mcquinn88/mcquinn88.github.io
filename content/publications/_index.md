@@ -1,8 +1,7 @@
 ---
 title: "Publications"
+# Prevent section-wide tags or drafts from leaking into children.
 cascade:
-  type: publication
+  tags: []
   draft: false
-view: citation
-sort_by: date_desc
 ---
