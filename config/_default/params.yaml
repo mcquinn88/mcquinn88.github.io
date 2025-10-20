@@ -39,9 +39,9 @@ header:
       text: 'Michael C. Quinn'
       
 # Site footer
-.navbar-brand {
-  margin-left: 1in !important;
-}
+assets:
+  css:
+    - "css/custom.cs
 
 footer:
   copyright:
