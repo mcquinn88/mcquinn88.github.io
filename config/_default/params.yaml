@@ -63,8 +63,7 @@ features:
 assets:
   css:
     - "css/custom.css"
-    
+    - "css/research.css"    
 favicon:
   logo: "favicon.png"
-custom_css:
-  - css/research.css
+
