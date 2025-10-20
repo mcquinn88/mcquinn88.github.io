@@ -72,7 +72,7 @@ sections:
   # ===== Refereed Journal Publications (type "2") =====
   - block: collection
     content:
-      title: "Refereed Journal Publications"
+      title: "Journal Publications"
       filters:
         folders: ["publications"]        # ← change to ["publication"] if singular
         publication_type: ["2"]
