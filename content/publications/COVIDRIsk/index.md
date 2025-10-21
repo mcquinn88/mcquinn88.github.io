@@ -34,24 +34,9 @@ hugoblox:
     arxiv: 1512.04133v1
 
 links:
-- type: preprint
-  provider: arxiv
-  id: 1512.04133v1
-- type: code
-  url: https://github.com/HugoBlox/hugo-blox-builder
-- type: slides
-  url: https://www.slideshare.net/
-- type: dataset
-  url: "#"
-- type: poster
-  url: "#"
-- type: source
-  url: "#"
-- type: video
-  url: https://youtube.com
 - type: custom
-  label: Custom Link
-  url: http://example.org
+  label: Working Paper
+  url: https://surface.syr.edu/cpr/502/
 
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder. 
