@@ -77,7 +77,6 @@ sections:
       filters:
         folders:
           - publications
-        publication_type: ["4"]
         exclude_featured: false
     design:
       view: citation
