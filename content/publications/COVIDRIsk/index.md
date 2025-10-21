@@ -59,21 +59,36 @@ slides: ""
 ---
 <style>
 /* Move Abstract to top of grid on desktop */
-@media (min-width:768px){
-  .page-body article main .max-w-prose.grid{
-    display:flex !important;
-    flex-direction:column !important;
+@media (min-width:768px) {
+  .page-body article main .max-w-prose.grid {
+    display: flex !important;
+    flex-direction: column !important;
   }
+
   /* Ensure both label and text span full width */
-  .page-body article main .max-w-prose.grid > *{
-    grid-column:auto !important;
-    width:100% !important;
+  .page-body article main .max-w-prose.grid > * {
+    grid-column: auto !important;
+    width: 100% !important;
   }
-  /* Optional: make "Abstract" label bold on top */
-  .page-body article main .max-w-prose.grid > div:first-child{
-    font-weight:700 !important;
-    margin-bottom:.5rem !important;
+
+  /* Make "Abstract" label bold on top */
+  .page-body article main .max-w-prose.grid > div:first-child {
+    font-weight: 700 !important;
+    margin-bottom: .5rem !important;
   }
+}
+
+/* Hide the author card section at the bottom, but keep top metadata */
+.page-body article main .author-card,
+.page-body article main section[id*="authors"],
+.page-body article main .authors-container {
+  display: none !important;
+}
+
+/* Hide "X min read" metadata under the title */
+.page-body article main span:contains("min read"),
+.page-body article main .text-sm.flex.items-center span:last-child {
+  display: none !important;
 }
 </style>
 
