@@ -63,7 +63,7 @@ sections:
     content:
       title: "Working Papers"
       filters:
-        folder:
+        folders:
           - publications
         publication_type: ["3"]
         exclude_featured: false
@@ -75,7 +75,7 @@ sections:
     content:
       title: "Work in Progress"
       filters:
-        folder:
+        folders:
           - publications
         publication_type: ["4"]
         exclude_featured: false
@@ -87,7 +87,7 @@ sections:
     content:
       title: "Refereed Journal Publications"
       filters:
-        folder:
+        folders:
           - publications
         publication_type: ["2"]
         exclude_featured: false
