@@ -29,6 +29,8 @@ tags:
 
 featured: false
 
+show_author: false
+
 
 links:
 - type: custom
@@ -78,17 +80,11 @@ slides: ""
   }
 }
 
-/* Hide the author card section at the bottom, but keep top metadata */
-.page-body article main .author-card,
-.page-body article main section[id*="authors"],
-.page-body article main .authors-container {
+/* Hide the last two metadata spans: "·" + "X min read" */
+.page-body article main .text-gray-500.text-sm.flex.items-center.flex-wrap.gap-y-2
+  > span:nth-last-of-type(1),
+.page-body article main .text-gray-500.text-sm.flex.items-center.flex-wrap.gap-y-2
+  > span:nth-last-of-type(2) {
   display: none !important;
-}
-
-/* Hide "X min read" metadata under the title */
-.page-body article main span:contains("min read"),
-.page-body article main .text-sm.flex.items-center span:last-child {
-  display: none !important;
-}
 </style>
 
