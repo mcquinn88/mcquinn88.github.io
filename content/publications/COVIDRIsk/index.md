@@ -29,9 +29,6 @@ tags:
 
 featured: false
 
-hugoblox:
-  ids:
-    arxiv: 1512.04133v1
 
 links:
 - type: custom
