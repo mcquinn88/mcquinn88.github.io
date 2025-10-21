@@ -85,7 +85,7 @@ sections:
   # ===== Refereed Journal Publications (publication_types: ["2"]) =====
   - block: collection
     content:
-      title: "Refereed Journal Publications"
+      title: "Journal Publications"
       filters:
         folders:
           - publications
