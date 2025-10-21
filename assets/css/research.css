@@ -47,3 +47,9 @@ section.blox-collection .responsive-figure{display:none !important;}
 section.blox-collection:nth-of-type(odd){background:rgba(255,255,255,.035) !important;}
 section.blox-collection:nth-of-type(even){background:transparent !important;}
 
+<style>
+/* Hide "min read" metadata on publication pages */
+.page-body article main span:contains("min read") {
+  display: none !important;
+}
+</style>
