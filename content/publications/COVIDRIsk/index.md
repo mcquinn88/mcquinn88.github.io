@@ -1,4 +1,24 @@
 ---
+<style>
+/* Uncap the Abstract grid on this page only */
+.page-body .max-w-prose.grid {
+  max-width: 100% !important;
+  width: 100% !important;
+}
+/* Let the right column actually stretch */
+@media (min-width: 768px) {
+  .page-body .max-w-prose.grid {
+    grid-template-columns: 220px minmax(0, 1fr) !important;
+    column-gap: 1.25rem !important;
+  }
+}
+/* Also uncap any other prose-capped blocks on this page */
+.page-body .container .max-w-prose,
+.page-body .prose {
+  max-width: 100% !important;
+}
+</style>
+
 title: "Inequality and COVID Risk at School: Racial Disparities in Indoor Density, Vaccination Rates, and Consequences for Absenteeism"
 authors:
 - Michael Quinn
