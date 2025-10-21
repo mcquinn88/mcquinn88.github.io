@@ -77,7 +77,7 @@ sections:
       filters:
         folders:
           - publications
-        publication_type: ["3"]
+        publication_type: ["manuscript"]
         exclude_featured: false
     design:
       view: citation
