@@ -24,3 +24,13 @@ section#about .article-style p {
   font-size: 1.5rem !important;   /* adjust up or down as needed */
   line-height: 1.7;
 }
+/* Widen abstract text on publication pages */
+.article-container, .pub-container, .article-style, .article-style p {
+  max-width: 900px !important;   /* default is ~640px */
+}
+
+/* Optional: slightly bump font for readability */
+.article-style {
+  font-size: 1.05rem;
+  line-height: 1.6;
+}
