@@ -6,8 +6,7 @@ authors:
   -Amy Ellen Schwartz
   -Brian Elbel
 author_notes:
-  -test
-  -test
+  - 'equal contribution'
 date: "2025-04-07T00:00:00Z"
 
 # Schedule page publish date (NOT publication's date).
