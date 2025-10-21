@@ -65,7 +65,7 @@ sections:
       filters:
         folders:
           - publications
-        publication_type: [3]
+        publication_type: ["aritcle"]
         exclude_featured: false
     design:
       view: citation
@@ -89,7 +89,7 @@ sections:
       filters:
         folders:
           - publications
-        publication_type: ["article"]
+        publication_type: ["article-journal"]
         exclude_featured: false
     design:
       view: citation
