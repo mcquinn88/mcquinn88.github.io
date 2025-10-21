@@ -1,7 +1,7 @@
 ---
 title: "Inequality and COVID Risk at School: Racial Disparities in Indoor Density, Vaccination Rates, and Consequences for Absenteeism"
 authors:
-  -Michael Quinn
+  -michael
   -Michah Rothbart
   -Amy Ellen Schwartz
   -Brian Elbel
