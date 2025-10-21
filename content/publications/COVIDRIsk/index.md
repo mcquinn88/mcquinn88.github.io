@@ -57,33 +57,37 @@ projects:
 #   Otherwise, set `slides: ""`.
 slides: ""
 ---
-<style>
-/* 1) Remove the 65ch cap from the Abstract block on THIS PAGE */
-.page-body article main .max-w-prose.grid { 
-  max-width: 100% !important; 
+ <style>
+/* === WIDEN TITLE + METADATA === */
+.page-body article main {
+  max-width: 100% !important;
   width: 100% !important;
+  padding-left: 2rem !important;
+  padding-right: 2rem !important;
 }
 
-/* 2) Make the grid truly two columns and allow content to expand */
+/* === EXPAND ABSTRACT GRID === */
+.page-body article main .max-w-prose.grid {
+  max-width: 100% !important;
+  width: 100% !important;
+}
 @media (min-width: 768px){
   .page-body article main .max-w-prose.grid {
-    grid-template-columns: 240px minmax(0, 1fr) !important; /* label | content */
+    grid-template-columns: 240px minmax(0, 1fr) !important;
     column-gap: 1.25rem !important;
   }
 }
 
-/* 3) Some themes reapply prose caps—neutralize any remaining ones on this page */
-.page-body :is(.max-w-prose, .prose) { 
-  max-width: 100% !important; 
+/* === REMOVE "TYPE" (Preprint/Working Paper) BLOCK === */
+.page-body .max-w-prose.grid .font-bold:contains("Type"),
+.page-body .max-w-prose.grid .font-bold:has(+ a[href*="/publication_types/"]),
+.page-body .max-w-prose.grid a[href*="/publication_types/"] {
+  display: none !important;
 }
 
-/* 4) If it still looks boxed, the outer container is capping width—uncap just on publication pages */
-.page-body .max-w-screen-xl { 
-  max-width: 100% !important; 
+/* === REMOVE ANY WIDTH CAPS ON PROSE TEXT === */
+.page-body :is(.max-w-prose, .prose) {
+  max-width: 100% !important;
+  width: 100% !important;
 }
-
-/* DEBUG (temporary): outline the abstract wrapper so you can see the rule is applying. 
-   Remove these two lines once you see the purple box expand. */
-.page-body article main .max-w-prose.grid { outline: 3px solid rebeccapurple !important; }
 </style>
-
