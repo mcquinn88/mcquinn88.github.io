@@ -58,7 +58,7 @@ sections:
     design:
       columns: 1
 
-  # ===== Working Papers (publication_types: ["3"]) =====
+  # ===== Working Papers (publication_type: ["3"]) =====
   - block: collection
     content:
       title: "Working Papers"
