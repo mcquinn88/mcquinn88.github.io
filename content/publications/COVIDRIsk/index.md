@@ -57,37 +57,23 @@ projects:
 #   Otherwise, set `slides: ""`.
 slides: ""
 ---
- <style>
-/* === WIDEN TITLE + METADATA === */
-.page-body article main {
-  max-width: 100% !important;
-  width: 100% !important;
-  padding-left: 2rem !important;
-  padding-right: 2rem !important;
-}
-
-/* === EXPAND ABSTRACT GRID === */
-.page-body article main .max-w-prose.grid {
-  max-width: 100% !important;
-  width: 100% !important;
-}
-@media (min-width: 768px){
-  .page-body article main .max-w-prose.grid {
-    grid-template-columns: 240px minmax(0, 1fr) !important;
-    column-gap: 1.25rem !important;
+<style>
+/* Move Abstract to top of grid on desktop */
+@media (min-width:768px){
+  .page-body article main .max-w-prose.grid{
+    display:flex !important;
+    flex-direction:column !important;
+  }
+  /* Ensure both label and text span full width */
+  .page-body article main .max-w-prose.grid > *{
+    grid-column:auto !important;
+    width:100% !important;
+  }
+  /* Optional: make "Abstract" label bold on top */
+  .page-body article main .max-w-prose.grid > div:first-child{
+    font-weight:700 !important;
+    margin-bottom:.5rem !important;
   }
 }
-
-/* === REMOVE "TYPE" (Preprint/Working Paper) BLOCK === */
-.page-body .max-w-prose.grid .font-bold:contains("Type"),
-.page-body .max-w-prose.grid .font-bold:has(+ a[href*="/publication_types/"]),
-.page-body .max-w-prose.grid a[href*="/publication_types/"] {
-  display: none !important;
-}
-
-/* === REMOVE ANY WIDTH CAPS ON PROSE TEXT === */
-.page-body :is(.max-w-prose, .prose) {
-  max-width: 100% !important;
-  width: 100% !important;
-}
 </style>
+
