@@ -65,7 +65,7 @@ sections:
       filters:
         folders:
           - publications
-        publication_type: ["3"]
+        publication_type: [3]
         exclude_featured: false
     design:
       view: citation
@@ -88,7 +88,7 @@ sections:
       filters:
         folders:
           - publications
-        publication_type: ["2"]
+        publication_type: ["3"]
         exclude_featured: false
     design:
       view: citation
