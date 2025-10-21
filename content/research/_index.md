@@ -65,7 +65,7 @@ sections:
       filters:
         folders:
           - publications
-        publication_type: ["aritcle"]
+        publication_type: ['paper-conference']
         exclude_featured: false
     design:
       view: citation
@@ -77,7 +77,7 @@ sections:
       filters:
         folders:
           - publications
-        publication_type: ["manuscript"]
+        publication_type: ['paper-conference']
         exclude_featured: false
     design:
       view: citation
@@ -89,9 +89,8 @@ sections:
       filters:
         folders:
           - publications
-        publication_type: ["article-journal"]
+        publication_type: ['article-journal']
         exclude_featured: false
     design:
       view: citation
 ---
-
