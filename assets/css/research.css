@@ -1,28 +1,3 @@
-/* 1) Kill the 65ch cap on the Abstract grid */
-main .max-w-prose.grid {
-  max-width: 100% !important;
-  width: 100% !important;
-}
-
-/* 2) Ensure the second column can actually expand */
-@media (min-width: 768px) {
-  main .max-w-prose.grid {
-    grid-template-columns: 220px minmax(0, 1fr) !important; /* label | content */
-    column-gap: 1.25rem !important;
-  }
-}
-
-/* 3) The theme also applies prose caps elsewhere — uncap them on publication pages */
-.page-body .prose,
-.page-body .container .max-w-prose {
-  max-width: 100% !important;
-}
-
-/* 4) If it’s still boxed, the outer container is limiting it — uncap that too */
-.page-body .max-w-screen-xl {
-  max-width: 100% !important;
-}
-
 
 /* background image spans both columns */
 section.blox-collection > .home-section-bg{ grid-column:1 / -1 !important; }
