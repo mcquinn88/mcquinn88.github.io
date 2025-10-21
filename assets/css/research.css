@@ -52,4 +52,11 @@ section.blox-collection:nth-of-type(even){background:transparent !important;}
 .page-body article main span:contains("min read") {
   display: none !important;
 }
+
+/* Hide author box at bottom of publication pages */
+.page-body article main .authors,
+.page-body article main .author-card,
+.page-body article main [class*="author"] {
+  display: none !important;
+}
 </style>
