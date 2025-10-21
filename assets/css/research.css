@@ -1,16 +1,7 @@
-/* Optional: slightly bump font for readability */
-.article-style {
-  font-size: 1.05rem;
-  line-height: 1.6;
-}
-
-/* Left label / Right list for Hugo Blox (blox-collection layout) */
-section.blox-collection{
-  display:grid !important;
-  grid-template-columns:300px 1fr !important;
-  column-gap:2rem !important;
-  align-items:start !important;
-  padding:1.1rem 0 !important;
+/* If you still feel boxed in, uncap the page container width */
+.page-body .max-w-screen-xl,
+.page-body .container {
+  max-width: 100% !important;
 }
 
 /* background image spans both columns */
