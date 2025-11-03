@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Teaching | Michael C. Quinn</title>
+    <link>https://michaelcquinn.github.io/courses/</link>
+      <atom:link href="https://michaelcquinn.github.io/courses/index.xml" rel="self" type="application/rss+xml" />
+    <description>Teaching</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sat, 31 Jul 2021 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://michaelcquinn.github.io/media/icon_hu308477601d8bad26df0b900eed8992e2_1472453_512x512_fill_lanczos_center_2.png</url>
+      <title>Teaching</title>
+      <link>https://michaelcquinn.github.io/courses/</link>
+    </image>
+    
+  </channel>
+</rss>

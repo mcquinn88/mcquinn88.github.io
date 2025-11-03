@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Intermediate Microeconomics
+(ECN 301)
+ | Michael C. Quinn</title>
+    <link>https://michaelcquinn.github.io/teaching/301/</link>
+      <atom:link href="https://michaelcquinn.github.io/teaching/301/index.xml" rel="self" type="application/rss+xml" />
+    <description>Intermediate Microeconomics
+(ECN 301)
+</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Tue, 25 Feb 2025 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://michaelcquinn.github.io/teaching/301/featured.png</url>
+      <title>Intermediate Microeconomics
+(ECN 301)
+</title>
+      <link>https://michaelcquinn.github.io/teaching/301/</link>
+    </image>
+    
+  </channel>
+</rss>

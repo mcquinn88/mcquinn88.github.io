@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Michah W. Rothbart | Michael C. Quinn</title>
+    <link>https://michaelcquinn.github.io/author/michah-w.-rothbart/</link>
+      <atom:link href="https://michaelcquinn.github.io/author/michah-w.-rothbart/index.xml" rel="self" type="application/rss+xml" />
+    <description>Michah W. Rothbart</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Fri, 03 Oct 2025 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://michaelcquinn.github.io/media/icon_hu308477601d8bad26df0b900eed8992e2_1472453_512x512_fill_lanczos_center_2.png</url>
+      <title>Michah W. Rothbart</title>
+      <link>https://michaelcquinn.github.io/author/michah-w.-rothbart/</link>
+    </image>
+    
+    <item>
+      <title>Did Covid Widen the Race Gap in Chronic Absenteeism? Unpacking Racial Disparities</title>
+      <link>https://michaelcquinn.github.io/publication/20year/</link>
+      <pubDate>Fri, 03 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>https://michaelcquinn.github.io/publication/20year/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Inequality and COVID Risk at School: Racial Disparities in Indoor Density, Vaccination Rates, and Consequences for Absenteeism</title>
+      <link>https://michaelcquinn.github.io/publication/covidrisk/</link>
+      <pubDate>Fri, 03 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>https://michaelcquinn.github.io/publication/covidrisk/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>The Impact of School Peers on Vaccination Take-Up: Evidence from COVID</title>
+      <link>https://michaelcquinn.github.io/publication/peervax/</link>
+      <pubDate>Fri, 03 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>https://michaelcquinn.github.io/publication/peervax/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

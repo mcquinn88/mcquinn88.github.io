@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Peer Effects | Michael C. Quinn</title>
+    <link>https://michaelcquinn.github.io/tag/peer-effects/</link>
+      <atom:link href="https://michaelcquinn.github.io/tag/peer-effects/index.xml" rel="self" type="application/rss+xml" />
+    <description>Peer Effects</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Fri, 03 Oct 2025 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://michaelcquinn.github.io/media/icon_hu308477601d8bad26df0b900eed8992e2_1472453_512x512_fill_lanczos_center_2.png</url>
+      <title>Peer Effects</title>
+      <link>https://michaelcquinn.github.io/tag/peer-effects/</link>
+    </image>
+    
+    <item>
+      <title>Being There: Perfect Attendance and Presenteeism in Schools.</title>
+      <link>https://michaelcquinn.github.io/publication/pres/</link>
+      <pubDate>Fri, 03 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>https://michaelcquinn.github.io/publication/pres/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>The Impact of School Peers on Vaccination Take-Up: Evidence from COVID</title>
+      <link>https://michaelcquinn.github.io/publication/peervax/</link>
+      <pubDate>Fri, 03 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>https://michaelcquinn.github.io/publication/peervax/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

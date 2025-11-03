@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Michael C. Quinn</title>
+    <link>https://michaelcquinn.github.io/links/</link>
+      <atom:link href="https://michaelcquinn.github.io/links/index.xml" rel="self" type="application/rss+xml" />
+    <description>Michael C. Quinn</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language>
+    <image>
+      <url>https://michaelcquinn.github.io/media/icon_hu308477601d8bad26df0b900eed8992e2_1472453_512x512_fill_lanczos_center_2.png</url>
+      <title>Michael C. Quinn</title>
+      <link>https://michaelcquinn.github.io/links/</link>
+    </image>
+    
+  </channel>
+</rss>
