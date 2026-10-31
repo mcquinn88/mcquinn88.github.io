@@ -2,37 +2,93 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Anthony P. Carnevale | Michael C. Quinn</title>
-    <link>https://michaelcquinn.github.io/author/anthony-p.-carnevale/</link>
-      <atom:link href="https://michaelcquinn.github.io/author/anthony-p.-carnevale/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://michaelcquinn.com/author/anthony-p.-carnevale/</link>
+      <atom:link href="https://michaelcquinn.com/author/anthony-p.-carnevale/index.xml" rel="self" type="application/rss+xml" />
     <description>Anthony P. Carnevale</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Fri, 03 Oct 2025 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Wed, 27 Mar 2024 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://michaelcquinn.github.io/media/icon_hu308477601d8bad26df0b900eed8992e2_1472453_512x512_fill_lanczos_center_2.png</url>
+      <url>https://michaelcquinn.com/media/icon_hu308477601d8bad26df0b900eed8992e2_1472453_512x512_fill_lanczos_center_2.png</url>
       <title>Anthony P. Carnevale</title>
-      <link>https://michaelcquinn.github.io/author/anthony-p.-carnevale/</link>
+      <link>https://michaelcquinn.com/author/anthony-p.-carnevale/</link>
     </image>
     
     <item>
-      <title>Our Seperate and Unequal Public Colleges</title>
-      <link>https://michaelcquinn.github.io/publication/sau/</link>
-      <pubDate>Fri, 03 Oct 2025 00:00:00 +0000</pubDate>
-      <guid>https://michaelcquinn.github.io/publication/sau/</guid>
+      <title>After Everything: Projections of Jobs, Education, and Training Requirements through 2031</title>
+      <link>https://michaelcquinn.com/publication/aftereverything/</link>
+      <pubDate>Wed, 27 Mar 2024 00:00:00 +0000</pubDate>
+      <guid>https://michaelcquinn.com/publication/aftereverything/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>The Uncertain Pathway from Youth to a Good Job: How Limits to Educational Affordability, Work-Based Learning, and Career Counseling Impede Progress toward Good Jobs</title>
+      <link>https://michaelcquinn.com/publication/pathway/</link>
+      <pubDate>Tue, 17 May 2022 00:00:00 +0000</pubDate>
+      <guid>https://michaelcquinn.com/publication/pathway/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Selective Bias: Asian Americans, Test Scores, and Holistic Admissions</title>
+      <link>https://michaelcquinn.com/publication/selectivebias/</link>
+      <pubDate>Thu, 15 Jul 2021 00:00:00 +0000</pubDate>
+      <guid>https://michaelcquinn.com/publication/selectivebias/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Mission Not Accomplished: Unequal Opportunities and Outcomes for Black and Latinx Engineers</title>
+      <link>https://michaelcquinn.com/publication/engineering/</link>
+      <pubDate>Tue, 25 May 2021 00:00:00 +0000</pubDate>
+      <guid>https://michaelcquinn.com/publication/engineering/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>The Cost of Economic and Racial Injustice in Postsecondary Education</title>
+      <link>https://michaelcquinn.com/publication/publicbenefit/</link>
+      <pubDate>Tue, 11 May 2021 00:00:00 +0000</pubDate>
+      <guid>https://michaelcquinn.com/publication/publicbenefit/</guid>
       <description></description>
     </item>
     
     <item>
       <title>The Dollars and Sense of Free College</title>
-      <link>https://michaelcquinn.github.io/publication/feecollege/</link>
-      <pubDate>Fri, 03 Oct 2025 00:00:00 +0000</pubDate>
-      <guid>https://michaelcquinn.github.io/publication/feecollege/</guid>
+      <link>https://michaelcquinn.com/publication/feecollege/</link>
+      <pubDate>Tue, 06 Oct 2020 00:00:00 +0000</pubDate>
+      <guid>https://michaelcquinn.com/publication/feecollege/</guid>
       <description></description>
     </item>
     
     <item>
       <title>The Overlooked Value of Certificates and Associate&#39;s Degrees: What Students Need to Know Before They Go to College</title>
-      <link>https://michaelcquinn.github.io/publication/subba/</link>
-      <pubDate>Fri, 03 Oct 2025 00:00:00 +0000</pubDate>
-      <guid>https://michaelcquinn.github.io/publication/subba/</guid>
+      <link>https://michaelcquinn.com/publication/subba/</link>
+      <pubDate>Tue, 28 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>https://michaelcquinn.com/publication/subba/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>SAT-Only Admission: How Would It Change College Campuses?</title>
+      <link>https://michaelcquinn.com/publication/satonly/</link>
+      <pubDate>Sun, 23 Jun 2019 00:00:00 +0000</pubDate>
+      <guid>https://michaelcquinn.com/publication/satonly/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Born to Win, Schooled to Lose: Why Equally Talented Students Don’t Get Equal Chances to Be All They Can Be</title>
+      <link>https://michaelcquinn.com/publication/borntowin/</link>
+      <pubDate>Wed, 15 May 2019 00:00:00 +0000</pubDate>
+      <guid>https://michaelcquinn.com/publication/borntowin/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Our Separate and Unequal Public Colleges: How Public Colleges Reinforce White Racial Privilege and Marginalize Black and Latino Students</title>
+      <link>https://michaelcquinn.com/publication/sau/</link>
+      <pubDate>Tue, 13 Nov 2018 00:00:00 +0000</pubDate>
+      <guid>https://michaelcquinn.com/publication/sau/</guid>
       <description></description>
     </item>
     

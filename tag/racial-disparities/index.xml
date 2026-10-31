@@ -2,29 +2,45 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Racial Disparities | Michael C. Quinn</title>
-    <link>https://michaelcquinn.github.io/tag/racial-disparities/</link>
-      <atom:link href="https://michaelcquinn.github.io/tag/racial-disparities/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://michaelcquinn.com/tag/racial-disparities/</link>
+      <atom:link href="https://michaelcquinn.com/tag/racial-disparities/index.xml" rel="self" type="application/rss+xml" />
     <description>Racial Disparities</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Fri, 03 Oct 2025 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Tue, 20 Oct 2026 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://michaelcquinn.github.io/media/icon_hu308477601d8bad26df0b900eed8992e2_1472453_512x512_fill_lanczos_center_2.png</url>
+      <url>https://michaelcquinn.com/media/icon_hu308477601d8bad26df0b900eed8992e2_1472453_512x512_fill_lanczos_center_2.png</url>
       <title>Racial Disparities</title>
-      <link>https://michaelcquinn.github.io/tag/racial-disparities/</link>
+      <link>https://michaelcquinn.com/tag/racial-disparities/</link>
     </image>
     
     <item>
-      <title>Did Covid Widen the Race Gap in Chronic Absenteeism? Unpacking Racial Disparities</title>
-      <link>https://michaelcquinn.github.io/publication/20year/</link>
-      <pubDate>Fri, 03 Oct 2025 00:00:00 +0000</pubDate>
-      <guid>https://michaelcquinn.github.io/publication/20year/</guid>
+      <title>Did COVID Widen the Race Gap in Chronic Absenteeism? Unpacking Racial Disparities</title>
+      <link>https://michaelcquinn.com/publication/20year/</link>
+      <pubDate>Tue, 20 Oct 2026 00:00:00 +0000</pubDate>
+      <guid>https://michaelcquinn.com/publication/20year/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Our Seperate and Unequal Public Colleges</title>
-      <link>https://michaelcquinn.github.io/publication/sau/</link>
-      <pubDate>Fri, 03 Oct 2025 00:00:00 +0000</pubDate>
-      <guid>https://michaelcquinn.github.io/publication/sau/</guid>
+      <title>Mission Not Accomplished: Unequal Opportunities and Outcomes for Black and Latinx Engineers</title>
+      <link>https://michaelcquinn.com/publication/engineering/</link>
+      <pubDate>Tue, 25 May 2021 00:00:00 +0000</pubDate>
+      <guid>https://michaelcquinn.com/publication/engineering/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>The Cost of Economic and Racial Injustice in Postsecondary Education</title>
+      <link>https://michaelcquinn.com/publication/publicbenefit/</link>
+      <pubDate>Tue, 11 May 2021 00:00:00 +0000</pubDate>
+      <guid>https://michaelcquinn.com/publication/publicbenefit/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Our Separate and Unequal Public Colleges: How Public Colleges Reinforce White Racial Privilege and Marginalize Black and Latino Students</title>
+      <link>https://michaelcquinn.com/publication/sau/</link>
+      <pubDate>Tue, 13 Nov 2018 00:00:00 +0000</pubDate>
+      <guid>https://michaelcquinn.com/publication/sau/</guid>
       <description></description>
     </item>
     

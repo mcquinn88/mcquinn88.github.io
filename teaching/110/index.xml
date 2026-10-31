@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Principles of Economics
+(ECON 110, College of the Holy Cross)
+ | Michael C. Quinn</title>
+    <link>https://michaelcquinn.com/teaching/110/</link>
+      <atom:link href="https://michaelcquinn.com/teaching/110/index.xml" rel="self" type="application/rss+xml" />
+    <description>Principles of Economics
+(ECON 110, College of the Holy Cross)
+</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Wed, 02 Sep 2026 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://michaelcquinn.com/teaching/110/featured.jpg</url>
+      <title>Principles of Economics
+(ECON 110, College of the Holy Cross)
+</title>
+      <link>https://michaelcquinn.com/teaching/110/</link>
+    </image>
+    
+  </channel>
+</rss>

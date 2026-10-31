@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Ban Cheah | Michael C. Quinn</title>
+    <link>https://michaelcquinn.com/author/ban-cheah/</link>
+      <atom:link href="https://michaelcquinn.com/author/ban-cheah/index.xml" rel="self" type="application/rss+xml" />
+    <description>Ban Cheah</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Tue, 17 May 2022 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://michaelcquinn.com/media/icon_hu308477601d8bad26df0b900eed8992e2_1472453_512x512_fill_lanczos_center_2.png</url>
+      <title>Ban Cheah</title>
+      <link>https://michaelcquinn.com/author/ban-cheah/</link>
+    </image>
+    
+    <item>
+      <title>The Uncertain Pathway from Youth to a Good Job: How Limits to Educational Affordability, Work-Based Learning, and Career Counseling Impede Progress toward Good Jobs</title>
+      <link>https://michaelcquinn.com/publication/pathway/</link>
+      <pubDate>Tue, 17 May 2022 00:00:00 +0000</pubDate>
+      <guid>https://michaelcquinn.com/publication/pathway/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>The Cost of Economic and Racial Injustice in Postsecondary Education</title>
+      <link>https://michaelcquinn.com/publication/publicbenefit/</link>
+      <pubDate>Tue, 11 May 2021 00:00:00 +0000</pubDate>
+      <guid>https://michaelcquinn.com/publication/publicbenefit/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

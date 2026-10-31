@@ -2,20 +2,20 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Intermediate Microeconomics
-(ECN 301)
+(ECN 301, Syracuse University)
  | Michael C. Quinn</title>
-    <link>https://michaelcquinn.github.io/teaching/301/</link>
-      <atom:link href="https://michaelcquinn.github.io/teaching/301/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://michaelcquinn.com/teaching/301/</link>
+      <atom:link href="https://michaelcquinn.com/teaching/301/index.xml" rel="self" type="application/rss+xml" />
     <description>Intermediate Microeconomics
-(ECN 301)
+(ECN 301, Syracuse University)
 </description>
     <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Tue, 25 Feb 2025 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://michaelcquinn.github.io/teaching/301/featured.png</url>
+      <url>https://michaelcquinn.com/teaching/301/featured.png</url>
       <title>Intermediate Microeconomics
-(ECN 301)
+(ECN 301, Syracuse University)
 </title>
-      <link>https://michaelcquinn.github.io/teaching/301/</link>
+      <link>https://michaelcquinn.com/teaching/301/</link>
     </image>
     
   </channel>

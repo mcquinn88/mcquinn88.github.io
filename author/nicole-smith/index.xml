@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Nicole Smith | Michael C. Quinn</title>
+    <link>https://michaelcquinn.com/author/nicole-smith/</link>
+      <atom:link href="https://michaelcquinn.com/author/nicole-smith/index.xml" rel="self" type="application/rss+xml" />
+    <description>Nicole Smith</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Wed, 27 Mar 2024 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://michaelcquinn.com/media/icon_hu308477601d8bad26df0b900eed8992e2_1472453_512x512_fill_lanczos_center_2.png</url>
+      <title>Nicole Smith</title>
+      <link>https://michaelcquinn.com/author/nicole-smith/</link>
+    </image>
+    
+    <item>
+      <title>After Everything: Projections of Jobs, Education, and Training Requirements through 2031</title>
+      <link>https://michaelcquinn.com/publication/aftereverything/</link>
+      <pubDate>Wed, 27 Mar 2024 00:00:00 +0000</pubDate>
+      <guid>https://michaelcquinn.com/publication/aftereverything/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Mission Not Accomplished: Unequal Opportunities and Outcomes for Black and Latinx Engineers</title>
+      <link>https://michaelcquinn.com/publication/engineering/</link>
+      <pubDate>Tue, 25 May 2021 00:00:00 +0000</pubDate>
+      <guid>https://michaelcquinn.com/publication/engineering/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>The Cost of Economic and Racial Injustice in Postsecondary Education</title>
+      <link>https://michaelcquinn.com/publication/publicbenefit/</link>
+      <pubDate>Tue, 11 May 2021 00:00:00 +0000</pubDate>
+      <guid>https://michaelcquinn.com/publication/publicbenefit/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

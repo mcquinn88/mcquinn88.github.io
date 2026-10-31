@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Megan L. Fasules | Michael C. Quinn</title>
+    <link>https://michaelcquinn.com/author/megan-l.-fasules/</link>
+      <atom:link href="https://michaelcquinn.com/author/megan-l.-fasules/index.xml" rel="self" type="application/rss+xml" />
+    <description>Megan L. Fasules</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Tue, 11 May 2021 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://michaelcquinn.com/media/icon_hu308477601d8bad26df0b900eed8992e2_1472453_512x512_fill_lanczos_center_2.png</url>
+      <title>Megan L. Fasules</title>
+      <link>https://michaelcquinn.com/author/megan-l.-fasules/</link>
+    </image>
+    
+    <item>
+      <title>The Cost of Economic and Racial Injustice in Postsecondary Education</title>
+      <link>https://michaelcquinn.com/publication/publicbenefit/</link>
+      <pubDate>Tue, 11 May 2021 00:00:00 +0000</pubDate>
+      <guid>https://michaelcquinn.com/publication/publicbenefit/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Born to Win, Schooled to Lose: Why Equally Talented Students Don’t Get Equal Chances to Be All They Can Be</title>
+      <link>https://michaelcquinn.com/publication/borntowin/</link>
+      <pubDate>Wed, 15 May 2019 00:00:00 +0000</pubDate>
+      <guid>https://michaelcquinn.com/publication/borntowin/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
